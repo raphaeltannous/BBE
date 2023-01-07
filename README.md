@@ -58,5 +58,6 @@ The [code](https://github.com/layeh/kjv) is under the `Public Domain` License.
 The Bible is under:
 
 ```txt
+Public Domain
 Everyone is permitted to copy, modify and distribute copies of this document for free as long as it's Biblical content remains unchanged.
 ```
