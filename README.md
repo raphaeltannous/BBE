@@ -46,7 +46,7 @@ Reference:
 BBE can be built by cloning the repository and then running make:
 
 ```sh
-git clone --depth 1 https://github.com/0xr3v/BBE.git
+git clone --depth 1 https://github.com/0xr3v/Bible-in-Basic-English_BBE_.git
 cd BBE
 make
 ```
