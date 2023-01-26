@@ -1,4 +1,4 @@
-# BBE
+# Bible in Basic English (BBE)
 
 Read the Word of God from your terminal.
 
@@ -10,12 +10,15 @@ usage: BBE [flags] [reference...]
 Flags:
   -A num  show num verses of context after matching verses
   -B num  show num verses of context before matching verses
+  -W num  enable line wrap to a specific width
   -C      show matching verses in context of the chapter
   -e      highlighting of chapters and verse numbers
           (default when output is a TTY)
   -p      output to less with chapter grouping, spacing, indentation,
           and line wrapping
           (default when output is a TTY)
+  -b      have a blank line after each verse
+  -i      remove all highlighting
   -l      list books
   -h      show help
 
@@ -45,15 +48,15 @@ Reference:
 
 BBE can be built by cloning the repository and then running make:
 
-```sh
-git clone --depth 1 https://github.com/0xr3v/Bible-in-Basic-English_BBE_.git
-cd BBE
+```
+git clone https://github.com/0xr3v/Bible-in-Basic-English_BBE_.git
+cd Bible-in-Basic-English_BBE_
 make
 ```
 
 ## License
 
-The [code](https://github.com/layeh/kjv) is under the `Public Domain` License.
+The [code](https://github.com/0xr3v/kjv-layeh) is under the `Public Domain` License.
 
 The Bible is under:
 

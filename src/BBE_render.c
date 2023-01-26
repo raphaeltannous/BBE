@@ -43,6 +43,10 @@ BBE_output_verse(const BBE_verse *verse, FILE *f, const BBE_config *config)
         word = strtok(NULL, " ");
     }
     fprintf(f, "\n");
+
+    if (config->blank_line_after_verse) {
+        fprintf(f, "\n");
+    }
 }
 
 static bool
@@ -145,3 +149,4 @@ BBE_render(const BBE_ref *ref, const BBE_config *config)
     BBE_output(ref, stdout, config);
     return 0;
 }
+
