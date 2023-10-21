@@ -49,14 +49,14 @@ Reference:
 BBE can be built by cloning the repository and then running make:
 
 ```
-git clone https://github.com/0xr3v/BBE.git
+git clone https://github.com/rofe33/BBE.git
 cd BBE
 make
 ```
 
 ## License
 
-The [code](https://github.com/0xr3v/kjv-layeh) is under the `Public Domain` License.
+The [code](https://github.com/rofe33/kjv-layeh) is under the `Public Domain` License.
 
 The Bible is under:
 
