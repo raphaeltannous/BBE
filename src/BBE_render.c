@@ -9,7 +9,7 @@
 #include "BBE_match.h"
 #include "BBE_render.h"
 
-#define ESC_BOLD "\033[1m"
+#define ESC_BOLD "\033[1;97m"
 #define ESC_UNDERLINE "\033[4m"
 #define ESC_RESET "\033[m"
 
