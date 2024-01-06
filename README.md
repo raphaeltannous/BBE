@@ -49,7 +49,7 @@ Reference:
 BBE can be built by cloning the repository and then running make:
 
 ```
-git clone https://github.com/0xr3v/BBE.git
+git clone https://github.com/rofe33/BBE.git
 cd BBE
 make
 ```
